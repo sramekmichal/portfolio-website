@@ -3870,7 +3870,7 @@ download@^7.1.0:
     file-type "^8.1.0"
     filenamify "^2.0.0"
     get-stream "^3.0.0"
-    got "^8.3.1"
+    got "^11.8.5"
     make-dir "^1.2.0"
     p-event "^2.1.0"
     pify "^3.0.0"
@@ -4906,9 +4906,9 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-got@10.7.0:
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-10.7.0.tgz#62889dbcd6cca32cd6a154cc2d0c6895121d091f"
+got@11.8.5:
+  version "11.8.5"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#62889dbcd6cca32cd6a154cc2d0c6895121d091f"
   integrity sha512-aWTDeNw9g+XqEZNcTjMMZSy7B7yE9toWOFYip7ofFTLleJhvZwUxxTxkTpKvF+p1SAA4VHmuEy7PiHTHyq8tJg==
   dependencies:
     "@sindresorhus/is" "^2.0.0"
@@ -4927,9 +4927,9 @@ got@10.7.0:
     to-readable-stream "^2.0.0"
     type-fest "^0.10.0"
 
-got@^8.3.1:
-  version "8.3.2"
-  resolved "https://registry.npmjs.org/got/-/got-8.3.2.tgz"
+got@^11.8.5:
+  version "11.8.5"
+  resolved "https://registry.npmjs.org/got/-/got-11.8.5.tgz"
   integrity sha512-qjUJ5U/hawxosMryILofZCkm3C84PLJS/0grRIpjAwu+Lkxxj5cxeCU25BG0/3mDSpXKTyZr8oh8wIgLaH0QCw==
   dependencies:
     "@sindresorhus/is" "^0.7.0"
@@ -7355,7 +7355,7 @@ netlify-plugin-cypress@^2.2.0:
   dependencies:
     common-tags "1.8.0"
     debug "4.1.1"
-    got "10.7.0"
+    got "11.8.5"
     local-web-server "^4.2.1"
     puppeteer "^7.0.1"
     ramda "0.27.1"
