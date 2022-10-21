@@ -6723,7 +6723,7 @@ mdast-util-to-hast@^4.0.0:
     detab "^2.0.0"
     mdast-util-definitions "^1.2.0"
     mdurl "^1.0.1"
-    trim "0.0.1"
+    trim "0.0.3"
     trim-lines "^1.0.0"
     unist-builder "^1.0.1"
     unist-util-generated "^1.1.0"
@@ -9308,7 +9308,7 @@ remark-parse@^6.0.3:
     parse-entities "^1.1.0"
     repeat-string "^1.5.4"
     state-toggle "^1.0.0"
-    trim "0.0.1"
+    trim "0.0.3"
     trim-trailing-lines "^1.0.0"
     unherit "^1.0.4"
     unist-util-remove-position "^1.0.0"
@@ -10506,15 +10506,14 @@ trim-trailing-lines@^1.0.0, trim-trailing-lines@^1.1.0:
   resolved "https://registry.npmjs.org/trim-trailing-lines/-/trim-trailing-lines-1.1.4.tgz"
   integrity sha512-rjUWSqnfTNrjbB9NQWfPMH/xRK1deHeGsHoVfpxJ++XeYXE0d6B1En37AHfw3jtfTU7dzMzZL2jjpe8Qb5gLIQ==
 
-trim@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/trim/-/trim-0.0.1.tgz"
+trim@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/trim/-/trim-0.0.3.tgz"
   integrity sha512-YzQV+TZg4AxpKxaTHK3c3D+kRDCGVEE7LemdlQZoQXn0iennk10RsIoY6ikzAqJTc9Xjl9C1/waHom/J86ziAQ==
 
 trough@^1.0.0:
   version "1.0.5"
   resolved "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz"
-  integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
 truncate-utf8-bytes@^1.0.0:
   version "1.0.2"
