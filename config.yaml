@@ -20,39 +20,39 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+# Menus:
+#   main:
+#     # - identifier: blog
+#     #   name: Blog
+#     #   title: Blog posts
+#     #   url: /blogs
+#     #   weight: 1
+#     # - identifier: gallery
+#     #   name: Gallery
+#     #   title: Blog posts
+#     #   url: /gallery
+#     #   weight: 2
+#     #Dropdown menu
+#     - identifier: dropdown
+#       title: Main menu
+#       name: Menu
+#       weight: 1
+#     - identifier: dropdown1
+#       title: example dropdown 1
+#       name: example 1
+#       url: /#
+#       parent: dropdown
+#       weight: 1
+#     - identifier: dropdown2
+#       title: example dropdown 2
+#       name: example 2
+#       url: /#
+#       parent: dropdown
+#       weight: 2
 
 params:
   title: "Michal Šrámek"
-  description: Text about my cool site
+  description: AUTHOR - SCIENTIST - INVENTOR"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -103,21 +103,21 @@ params:
     brandName: "Michal Šrámek" # Brand name for the brand | default is the title variable
     disableSearch: true
     menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: false
-      disableContact: false
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
 
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Michael."
+    intro: "Hi, welcome to my page! My name is"
+    title: "Michal."
     subtitle: "AUTHOR - SCIENTIST - INVENTOR"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    content: "A science enthusiast, workind with information technologies. I started with my own businesses."
+    image: /images/hero.jpg
     button:
       enable: true
       name: "Resume"
@@ -126,29 +126,30 @@ params:
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-linkedin
-          url: https://example.com
-        - icon: fab fa-facebook
-          url: https://example.com
-        - icon: fab fa-github
-          url: https://github.com/sramekmichal
-        - icon: fab fa-researchgate
-          url: https://example.com
-        - icon: fab fa-google
-          url: https://scholar.google.com/citations?user=o1_64h8AAAAJ&hl=cs
+        # - icon: fab fa-linkedin
+        #   url: https://example.com
+        # - icon: fab fa-facebook
+        #   url: https://example.com
+        # - icon: fab fa-github
+        #   url: https://github.com/sramekmichal
+        # - icon: fab fa-google
+        #   url: https://scholar.google.com/citations?user=o1_64h8AAAAJ&hl=cs
+        # - icon: fab fa-researchgate
+        #   url: https://example.com
+        
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        # - icon: /fav.png
+        #   url: "https://example.com"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I am a IT Rookie with a passion in Cloud Development. I have a background in biochemistry, I am enthusiastic in Sciece and I have a strong interest in the Technology and Art. I am currently working as a Automation Engineer at [LMC s.r.o.](https://www.lmc.eu/en/) in Prague, CZ. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am open minded person adapted to problem solving.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -169,25 +170,27 @@ params:
         date: "Jan 2019 - present"
         featuredLink:
           enable: true
-          name: "COMPANY"
+          name: "VISIT COMPANY"
           url: "https://www.lmc.eu/en/"
-        content: "I am currently working as a Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am currently working on CI/CD to kubernetes and cloud services related to AWS."
+        content: |-
+          I am currently working as a Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am focusing on CI/CD pipelines for Kubernetes and Cloud services related to AWS.
 
-      # - job: "Software Developer"
-      #   company: "Amazon"
-      #   companyUrl: "https://example.com"
-      #   date: "Sep 2020 - Dec 2021"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
-      #   info:
-      #     enable: true
-      #     content: I worked as a software developer for more than one year in Amazon.
-      #   content: |
-      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          -  Research and implementation of novel tools used in Kubernetes deployment
+      - job: "Research Assistant"
+        company: "IMG"
+        companyUrl: "https://www.img.cas.cz/en/"
+        date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: true
+          name: "VISIT INSTITUTE"
+          url: "https://www.img.cas.cz/en/"
+        info:
+          enable: true
+          content: Reserach Asistant
+        content: |-
+          I was part of research group of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
 
-      #     - Lead backend developer for a product.
-      #     - Created a frontend design for a product.
+          - Participation in grant project (identification of novel regulators of PARP1/XRCC1 proteins).
 
       # - job: "Junior Software Developer"
       #   company: "Apple"
@@ -231,90 +234,68 @@ params:
     items:
       - title: "Master of Science"
         school:
-          name: "Czech University of Life Sciences, Prague CZ"
+          name: "Czech University of Life Sciences"
           url: "https://www.af.czu.cz/en"
         date: "2021 - 2023"
-        GPA: "3.8 out of 5.0"
+        study: "Conservation and Use of Natural Resources"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      # - title: "Bachelor of Science in Computer Science"
-      #   school:
-      #     name: "Massachusetts Institute of Technology"
-      #     url: "https://example.org"
-      #   date: "2009 - 2013"
-      #   GPA: "3.9 out of 5.0"
-      #   content: |-
-      #     I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-      #     - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-      #     - Face mask detection using a single convolutional neural network.
-
-      #     Extracurricular Activities
-      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      #   featuredLink:
-      #     enable: true
-      #     name: "My academic record"
-      #     url: "https://example.com"
-      # - title: "High School"
-      #   school:
-      #     name: "Thomas Jefferson High School for Science and Technology."
-      #     url: "https://example.org"
-      #   GPA: "4.2 out of 5.0"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
+          Additional Info:
+            - <u>Educational Field:</u> Natural Sciences
+            - <u>Diploma Thesis:</u> Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography.
+      - title: "Bachelor of Science"
+        school:
+          name: "University of South Bohemia"
+          url: "https://www.zsf.jcu.cz/en/"
+        date: "2016 - 2019"
+        study: "Medical Laboratory Technican"
+        content: |-
+          Additional Info:
+            - <u>Educational Field:</u> Healthcare
+            - <u>Diploma Thesis:</u> Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism.
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
 
   # projects
   projects:
     enable: true
-    title: "Projects"
+    title: "My Family"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Aperta Studio
+        content: Business website related to consulting, model designing and custom 3D printing. I work with various FDM printers and one MSLA.
+        image: /images/projects/apertastudio.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Ask for Services
+          link: https://www.apertastudio.eu/
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "3D"
+          - "Design"
+          - "Crafting"
         links:
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/company/apertastudio
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/apertastudio
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      # - title: Image Converter
-      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-      #   image: /images/projects/converter.jpg
-      #   featured:
-      #     name: Demo
-      #     link: https://django-converter.herokuapp.com
-      #   badges:
-      #     - "Django"
-      #     - "Bootstrap"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/converter
-
-      # - title: Hugo Profile V2
-      #   content: A clean and simple Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile2.jpg
-      #   featured:
-      #     name: Demo V2
-      #     link: https://hugo-profile-2.netlify.app
-      #   badges:
-      #     - "Hugo"
-      #     - "Bootstrap"
-      #     - "Javascript"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/HugoProfileV2
+            url: mailto:sramek.consulting@aol.com
+      - title: NERDSHARK
+        content: E-shop with mostly my personal fashion and art goods. My goal is to turn the site into something more than an e-shop, but more like a community of artists.
+        image: /images/projects/nerdshark.png
+        featured:
+          name: Visit E-shop
+          link: https://www.nerdshark.eu
+        badges:
+          - "Fashion"
+          - "Art"
+          - "HomeMade"
+        links:
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/company/nerdshark
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/nerdsharkshop
+          - icon: fa fa-envelope
+            url: mailto:info@nerdshark.eu
 
 # Achievements
   achievements:
@@ -344,24 +325,23 @@ params:
     btnName: Mail me
     formspree:
       enable: true # `contact.email` value will be ignored
-      formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      formId: xoqzvzvl # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
       emailCaption: "Enter your email address"
       messageCaption: "Enter your message here"
 
   footer:
     recentPosts:
       path: "blogs"
-      count: 3
+      count: 0
       title: Recent Posts
       enable: false
       disableFeaturedImage: true
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
-      linkedin: https://facebook.com
+      linkedin: https://www.linkedin.com/in/michal-sramek
+      facebook: https://www.facebook.com/michal.sramek5
+      github: https://github.com/sramekmichal
+      scholar: https://scholar.google.com/citations?user=o1_64h8AAAAJ&hl=cs
+      researchgate: https://www.researchgate.net/profile/Michal-Sramek
 
   # List pages like blogs and posts
   listPages:
