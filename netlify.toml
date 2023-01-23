@@ -28,3 +28,14 @@ HUGO_VERSION = "0.110.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  filePath = "sitemap/sitemap.xml"
+  prettyURLs = false
