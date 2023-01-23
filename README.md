@@ -4,4 +4,5 @@ Hugo portfolio website.
 
 - theme added as git subtree, to update it to last commit:
 ```
-git subtree pull --prefix themes/hugo-profile git@github.com:gurusabarish/hugo-profile.git master --squash```
+git subtree pull --prefix themes/hugo-profile git@github.com:gurusabarish/hugo-profile.git master --squash
+```
