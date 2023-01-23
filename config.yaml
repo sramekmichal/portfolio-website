@@ -1,6 +1,6 @@
 baseURL: "https://www.michalsramek.eu"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Michal Šrámek"
 theme: hugo-profile
 
 outputs:
