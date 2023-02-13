@@ -11,7 +11,7 @@ outputs:
   page:
     - "HTML"
     - "RSS"
-    
+
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
@@ -102,6 +102,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
@@ -120,6 +121,7 @@ params:
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/hero.svg
+    # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -363,9 +365,24 @@ params:
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
-    
+
   # Single pages like blog and post
   singlePages:
     readTime:
       enable: true
       content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
