@@ -54,7 +54,7 @@ params:
   title: "Michal Šrámek"
   description: AUTHOR - SCIENTIST - INVENTOR"
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/favicon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -99,8 +99,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    brandName: "Michal Šrámek" # Brand name for the brand | default is the title variable
+    brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: " " # Brand name for the brand | default is the title variable
     disableSearch: true
     menus:
       disableAbout: true
@@ -165,7 +165,7 @@ params:
     title: "Experience"
     items:
       - job: "Automation Engineer"
-        company: "LMC s.r.o."
+        company: "LMC"
         companyUrl: "https://example.com"
         date: "Jan 2019 - present"
         featuredLink:
@@ -174,8 +174,9 @@ params:
           url: "https://www.lmc.eu/en/"
         content: |-
           I am currently working as a Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am focusing on CI/CD pipelines for Kubernetes and Cloud services related to AWS.
-
+          
           -  Research and implementation of novel tools used in Kubernetes deployment
+      
       - job: "Research Assistant"
         company: "IMG"
         companyUrl: "https://www.img.cas.cz/en/"
@@ -189,43 +190,9 @@ params:
           content: Reserach Asistant
         content: |-
           I was part of research group of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
-
+          
           - Participation in grant project (identification of novel regulators of PARP1/XRCC1 proteins).
-
-      # - job: "Junior Software Developer"
-      #   company: "Apple"
-      #   companyUrl: "https://example.com"
-      #   date: "Jan 2020 - Aug 2020"
-      #   info:
-      #     enable: false
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
-      #   content: |
-      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-      #     - Lead backend developer for a product.
-      #     - Created a frontend design for a product.
-
-      # - job: "UI/UX Designer"
-      #   company: "Netflix"
-      #   companyUrl: "https://example.com"
-      #   date: "June 2017 - Nov 2019"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
-      #   content: |
-      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-      #     - Lead backend developer for a product.
-      #     - Created a frontend design for a product.
-
-      # - job: "Product Designer"
-      #   company: "Google"
-      #   companyUrl: "https://example.com"
-      #   date: "Feb 2016 - Mar 2017"
-      #   content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+  
   # Education
   education:
     enable: true
@@ -238,20 +205,42 @@ params:
           url: "https://www.af.czu.cz/en"
         date: "2021 - 2023"
         study: "Conservation and Use of Natural Resources"
+        thesis: 
+          name: "Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography"
+          url: "#"
         content: |-
           Additional Info:
             - <u>Educational Field:</u> Natural Sciences
-            - <u>Diploma Thesis:</u> Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography.
+
       - title: "Bachelor of Science"
         school:
           name: "University of South Bohemia"
           url: "https://www.zsf.jcu.cz/en/"
         date: "2016 - 2019"
         study: "Medical Laboratory Technican"
+        thesis: 
+          name: "Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism"
+          url: "https://doi.org/10.13140/RG.2.2.34534.09288"
         content: |-
           Additional Info:
             - <u>Educational Field:</u> Healthcare
-            - <u>Diploma Thesis:</u> Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism.
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+      - title: "High School Diploma"
+        school:
+          name: "Schola Humanitas"
+          url: "https://www.humanitas.cz/"
+        date: "2008 - 2012"
+        study: "Protection and Restoration of the Environment"
+        thesis: 
+          name: "Malacocenosis Fossil Research from Cretaceous Period, Confirmation of the Presence of Typical Layers and Geochemistry of These Layers at the Undescribed Place"
+          url: "https://doi.org/10.13140/RG.2.2.34534.09288"
+        content: |-
+          Additional Info:
+            - <u>Educational Field:</u> Life Sciences
         featuredLink:
           enable: false
           name: "My academic record"
@@ -279,6 +268,7 @@ params:
             url: https://www.facebook.com/apertastudio
           - icon: fa fa-envelope
             url: mailto:sramek.consulting@aol.com
+
       - title: NERDSHARK
         content: E-shop with mostly my personal fashion and art goods. My goal is to turn the site into something more than an e-shop, but more like a community of artists.
         image: /images/projects/nerdshark.png
@@ -352,3 +342,5 @@ params:
     readTime:
       enable: true
       content: "min read"
+    scrollprogress:
+      enable: true

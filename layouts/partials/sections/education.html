@@ -34,6 +34,16 @@
                                 {{ else }}
                                 {{ .school.name }}
                                 {{ end }}
+                                <br>
+                                {{ if .thesis.name }}
+                                <u>Diploma Thesis:</u><a href="{{ .thesis.url }}" target="_blank">
+                                    <h6>
+                                    {{ .thesis.name }}
+                                    </h6>
+                                </a>
+                                {{ else }}
+                                {{ .thesis.name }}
+                                {{ end }}
 
                                 {{ if .study }}
                                 <div class="py-1">
