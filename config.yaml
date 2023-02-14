@@ -52,7 +52,7 @@ markup:
 
 params:
   title: "Michal Šrámek"
-  description: AUTHOR - SCIENTIST - INVENTOR"
+  description: "AUTHOR. SCIENTIST. INVENTOR"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.png"
 
@@ -115,13 +115,13 @@ params:
     enable: true
     intro: "Hi, welcome to my page! My name is"
     title: "Michal."
-    subtitle: "AUTHOR - SCIENTIST - INVENTOR"
+    subtitle: "AUTHOR. SCIENTIST. INVENTOR"
     content: "A science enthusiast, workind with information technologies. I started with my own businesses."
     image: /images/hero.jpg
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/"
       download: false
       newPage: true
     socialLinks:
@@ -205,11 +205,12 @@ params:
           url: "https://www.af.czu.cz/en"
         date: "2021 - 2023"
         study: "Conservation and Use of Natural Resources"
-        thesis: 
-          name: "Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography"
-          url: "#"
+        thesis: "Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography"
+        featuredLink:
+          enable: false
+          name: "Read Online"
+          url: "https://example.com"
         content: |-
-          Additional Info:
             - <u>Educational Field:</u> Natural Sciences
 
       - title: "Bachelor of Science"
@@ -218,16 +219,13 @@ params:
           url: "https://www.zsf.jcu.cz/en/"
         date: "2016 - 2019"
         study: "Medical Laboratory Technican"
-        thesis: 
-          name: "Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism"
+        thesis: "Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism"
+        featuredLink:
+          enable: true
+          name: "Read Online"
           url: "https://doi.org/10.13140/RG.2.2.34534.09288"
         content: |-
-          Additional Info:
             - <u>Educational Field:</u> Healthcare
-        featuredLink:
-          enable: false
-          name: "My academic record"
-          url: "https://example.com"
 
       - title: "High School Diploma"
         school:
@@ -235,16 +233,13 @@ params:
           url: "https://www.humanitas.cz/"
         date: "2008 - 2012"
         study: "Protection and Restoration of the Environment"
-        thesis: 
-          name: "Malacocenosis Fossil Research from Cretaceous Period, Confirmation of the Presence of Typical Layers and Geochemistry of These Layers at the Undescribed Place"
+        thesis: "Malacocenosis Fossil Research from Cretaceous Period and Geochemistry at the Undescribed Place"
+        featuredLink:
+          enable: true
+          name: "Read Online"
           url: "https://doi.org/10.13140/RG.2.2.26145.48484"
         content: |-
-          Additional Info:
             - <u>Educational Field:</u> Life Sciences
-        featuredLink:
-          enable: false
-          name: "My academic record"
-          url: "https://example.com"
 
   # projects
   projects:

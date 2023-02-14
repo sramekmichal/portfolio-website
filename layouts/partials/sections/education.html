@@ -34,36 +34,37 @@
                                 {{ else }}
                                 {{ .school.name }}
                                 {{ end }}
-                                <br>
-                                {{ if .thesis.name }}
-                                <u>Diploma Thesis:</u> <a href="{{ .thesis.url }}" target="_blank">
-                                    <h6>
-                                    {{ .thesis.name }}
+                                
+                                {{ if .thesis }}
+                                <h6><u>THESIS:</u></h6>
+                                    <h6 style="word-wrap: break-word; width: 900px;">
+                                    &emsp;&emsp;{{ .thesis }}
                                     </h6>
                                 </a>
                                 {{ else }}
                                 {{ .thesis.name }}
                                 {{ end }}
 
-                                {{ if .study }}
-                                <div class="py-1">
-                                    <small>Field of study:</small>
-                                    <i>
-                                        <small>{{ .study }}</small>
-                                    </i> 
-                                </div>
-                                {{ end }}
-                                <div class="py-1 education-content">
-                                    {{ .content | markdownify}}
-                                </div>
-
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
-                                    <a href="{{ .featuredLink.url }}" class="btn">
+                                    <a href="{{ .featuredLink.url }}" target="_blank" class="btn">
                                         {{ .featuredLink.name | default "Featured" }}
                                     </a>
                                 </div>
                                 {{ end }}
+
+                                {{ if .study }}
+                                <div class="py-1">
+                                    <a><u><i>STUDY:</i></u></a>
+                                    <i>
+                                        <a>{{ .study }}</a>
+                                    </i> 
+                                </div>
+                                {{ end }}
+
+                                <div class="py-1 education-content">
+                                    {{ .content | markdownify}}
+                                </div>
                             </div>
                         </div>
                     </div>
