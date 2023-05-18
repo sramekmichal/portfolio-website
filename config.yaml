@@ -187,11 +187,27 @@ params:
           url: "https://www.img.cas.cz/en/"
         info:
           enable: true
-          content: Reserach Asistant
+          content: Laboratory of Genome Dynamics
         content: |-
           I was part of research group of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
           
-          - Participation in grant project (identification of novel regulators of PARP1/XRCC1 proteins).
+          - Participation in grant projects (identification of novel regulators of PARP1/XRCC1 proteins).
+
+      - job: "Laboratory Manager"
+        company: "IMG"
+        companyUrl: "https://www.img.cas.cz/en/"
+        date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: true
+          name: "VISIT INSTITUTE"
+          url: "https://www.img.cas.cz/en/"
+        info:
+          enable: true
+          content: Laboratory of Genome Integrity
+        content: |-
+          I was part of research group of Dr. Jiří Bártek at [IMG of the CAS](https://www.img.cas.cz/group/zdenek-hodny/).
+          
+          - participation in grant projects (theranostic nanomedicine) and management of department.
   
   # Education
   education:
