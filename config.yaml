@@ -165,8 +165,8 @@ params:
     title: "Experience"
     items:
       - job: "Automation Engineer"
-        company: "LMC"
-        companyUrl: "https://example.com"
+        company: "LMC - Developers Experience"
+        companyUrl: "https://www.lmc.eu/en/"
         date: "Jan 2019 - present"
         featuredLink:
           enable: true
@@ -178,7 +178,7 @@ params:
           -  Research and implementation of novel tools used in Kubernetes deployment
       
       - job: "Research Assistant"
-        company: "IMG (Genome Dynamics)"
+        company: "IMG - Genome Dynamics"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Sep 2020 - Dec 2021"
         featuredLink:
@@ -194,7 +194,7 @@ params:
           - Participation in grant projects (identification of novel regulators of PARP1/XRCC1 proteins).
 
       - job: "Laboratory Manager"
-        company: "IMG (Genome Integrity)"
+        company: "IMG - Genome Integrity"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Sep 2020 - Dec 2021"
         featuredLink:
