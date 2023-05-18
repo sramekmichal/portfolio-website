@@ -199,6 +199,19 @@ params:
     title: "Education"
     index: false
     items:
+      - title: "Ph.D."
+        school:
+          name: "Czech University of Life Sciences"
+          url: "https://www.af.czu.cz/en"
+        date: "2023 - 2027"
+        study: "Chemistry"
+        featuredLink:
+          enable: false
+          name: "Read Online"
+          url: ""
+        content: |-
+            - <u>Educational Field:</u> Physical Sciences
+
       - title: "Master of Science"
         school:
           name: "Czech University of Life Sciences"
@@ -207,9 +220,9 @@ params:
         study: "Conservation and Use of Natural Resources"
         thesis: "Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography"
         featuredLink:
-          enable: false
+          enable: true
           name: "Read Online"
-          url: "https://example.com"
+          url: "https://dx.doi.org/10.13140/RG.2.2.28356.81283"
         content: |-
             - <u>Educational Field:</u> Natural Sciences
 
