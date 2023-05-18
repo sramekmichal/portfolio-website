@@ -165,7 +165,7 @@ params:
     title: "Experience"
     items:
       - job: "Automation Engineer"
-        company: "LMC - Developers Experience"
+        company: "LMC"
         companyUrl: "https://www.lmc.eu/en/"
         date: "Jan 2019 - present"
         featuredLink:
@@ -173,12 +173,12 @@ params:
           name: "VISIT COMPANY"
           url: "https://www.lmc.eu/en/"
         content: |-
-          I am currently working as a Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am focusing on CI/CD pipelines for Kubernetes and Cloud services related to AWS.
+          I am currently working in department of Developers Experience as an Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am focusing on CI/CD pipelines for Kubernetes and Cloud services related to AWS.
           
           -  Research and implementation of novel tools used in Kubernetes deployment
       
       - job: "Research Assistant"
-        company: "IMG - Genome Dynamics"
+        company: "IMG - GD"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Sep 2020 - Dec 2021"
         featuredLink:
@@ -189,12 +189,12 @@ params:
           enable: true
           content: Laboratory of Genome Dynamics
         content: |-
-          I was part of research group of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
+          I was part of department of Genom Dynamics of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
           
           - Participation in grant projects (identification of novel regulators of PARP1/XRCC1 proteins).
 
       - job: "Laboratory Manager"
-        company: "IMG - Genome Integrity"
+        company: "IMG - GI"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Sep 2020 - Dec 2021"
         featuredLink:
@@ -205,7 +205,7 @@ params:
           enable: true
           content: Laboratory of Genome Integrity
         content: |-
-          I was part of research group of Dr. Jiří Bártek at [IMG of the CAS](https://www.img.cas.cz/group/zdenek-hodny/).
+          I was part of department of Genome Integrity of Dr. Jiří Bártek at [IMG of the CAS](https://www.img.cas.cz/group/zdenek-hodny/).
           
           - participation in grant projects (theranostic nanomedicine) and management of department.
   
