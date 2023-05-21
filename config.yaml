@@ -196,7 +196,7 @@ params:
       - job: "Laboratory Manager"
         company: "IMG - GI"
         companyUrl: "https://www.img.cas.cz/en/"
-        date: "Sep 2020 - Dec 2021"
+        date: "Jan 2012 - Dec 2018"
         featuredLink:
           enable: true
           name: "VISIT INSTITUTE"
@@ -207,7 +207,8 @@ params:
         content: |-
           I was part of department of Genome Integrity of Dr. Jiří Bártek at [IMG of the CAS](https://www.img.cas.cz/group/zdenek-hodny/).
           
-          - participation in grant projects (theranostic nanomedicine) and management of department.
+          - participation in grant projects (theranostic nanomedicine)
+          - management of department.
   
   # Education
   education:
