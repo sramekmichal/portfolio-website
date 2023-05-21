@@ -167,7 +167,7 @@ params:
       - job: "Automation Engineer"
         company: "LMC"
         companyUrl: "https://www.lmc.eu/en/"
-        date: "Jan 2019 - present"
+        date: "Sep 2019 - present"
         featuredLink:
           enable: true
           name: "VISIT COMPANY"
@@ -180,7 +180,7 @@ params:
       - job: "Research Assistant"
         company: "IMG - GD"
         companyUrl: "https://www.img.cas.cz/en/"
-        date: "Sep 2020 - Dec 2021"
+        date: "Jan 2019 - Aug 2019"
         featuredLink:
           enable: true
           name: "VISIT INSTITUTE"
