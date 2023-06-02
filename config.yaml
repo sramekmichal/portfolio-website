@@ -116,12 +116,14 @@ params:
     intro: "Hi, welcome to my page! My name is"
     title: "Michal."
     subtitle: "AUTHOR. SCIENTIST. INVENTOR"
-    content: "A science enthusiast, workind with information technologies. I started with my own businesses."
+    content: |-
+      A science enthusiast, workind with innovative information technologies. \
+      CEO of few small businesses.
     image: /images/hero.jpg
     button:
       enable: true
-      name: "Resume"
-      url: "/"
+#      name: "Credly"
+      url: "https://www.credly.com/badges/39000553-24f5-4fc9-8fd7-bada1305876b"
       download: false
       newPage: true
     socialLinks:
@@ -178,7 +180,7 @@ params:
           -  Research and implementation of novel tools used in Kubernetes deployment
       
       - job: "Research Assistant"
-        company: "IMG - GD"
+        company: "Genome Dynamics"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Jan 2019 - Aug 2019"
         featuredLink:
@@ -194,7 +196,7 @@ params:
           - Participation in grant projects (identification of novel regulators of PARP1/XRCC1 proteins).
 
       - job: "Laboratory Manager"
-        company: "IMG - GI"
+        company: "Genome Integrity"
         companyUrl: "https://www.img.cas.cz/en/"
         date: "Jan 2012 - Dec 2018"
         featuredLink:
@@ -216,7 +218,7 @@ params:
     title: "Education"
     index: false
     items:
-      - title: "Ph.D."
+      - title: "Doctoral Study"
         school:
           name: "Czech University of Life Sciences"
           url: "https://www.af.czu.cz/en"

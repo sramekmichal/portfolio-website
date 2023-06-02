@@ -1,3 +1,21 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 120px;
+  height: 120px;
+  margin: 40px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+</style>
+
 {{ if .Site.Params.hero.enable | default false }}
 <section id="hero" class="py-5 align-middle">
     <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
@@ -16,13 +34,10 @@
                     {{ .Site.Params.hero.content | markdownify }}
                 </p>
                 <div class="row">
-                    <div class="col-auto h-100" animate>
+                    <div class="zoom content animate">
                         {{ if .Site.Params.hero.button.enable }}
-                        <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-			  {{ if .Site.Params.hero.button.newPage | default true }}
-                          target="_blank"
-                          {{ end }}>
-                            {{ .Site.Params.hero.button.name }}
+                        <a href="{{ .Site.Params.hero.button.url }}" target="_blank"><img src="/images/aws-cp.png"
+                            width="120" height="120" alt="Cloud Practitioner">
                         </a>
                         {{ end }}
                     </div>
