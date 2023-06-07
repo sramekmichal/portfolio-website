@@ -120,12 +120,6 @@ params:
       A science enthusiast, workind with innovative information technologies. \
       CEO of few small businesses.
     image: /images/hero.jpg
-    button:
-      enable: true
-#      name: "Credly"
-      url: "https://www.credly.com/badges/39000553-24f5-4fc9-8fd7-bada1305876b"
-      download: false
-      newPage: true
     socialLinks:
       fontAwesomeIcons:
         # - icon: fab fa-linkedin

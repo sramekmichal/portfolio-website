@@ -6,7 +6,8 @@
   transition: transform .2s; /* Animation */
   width: 120px;
   height: 120px;
-  margin: 40px;
+  margin: 5px;
+  padding: 40px;
 }
 
 .zoom:hover {
@@ -35,11 +36,14 @@
                 </p>
                 <div class="row">
                     <div class="zoom content animate">
-                        {{ if .Site.Params.hero.button.enable }}
-                        <a href="{{ .Site.Params.hero.button.url }}" target="_blank"><img src="/images/aws-cp.png"
-                            width="120" height="120" alt="Cloud Practitioner">
+                        <a href="https://www.credly.com/badges/39000553-24f5-4fc9-8fd7-bada1305876b" target="_blank"><img src="/images/aws-cp.png"
+                            width="120" height="120" alt="Certified Cloud Practitioner">
                         </a>
-                        {{ end }}
+                    </div>
+                    <div class="zoom content animate">
+                        <a href="https://www.credly.com/badges/d854ebbf-cd96-48dc-b817-a0da5b85d0b1" target="_blank"><img src="/images/aws-qcp.png"
+                            width="120" height="120" alt="Cloud Quest Practitioner">
+                        </a>
                     </div>
                     <div class="col-auto px-0 h-100">
                         {{- partial "sections/hero/social.html" . -}}
