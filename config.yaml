@@ -318,13 +318,13 @@ params:
     title: "Latest Achievements"
     items:
       - title: Creative Skills for Innovation
-        content: A Grow with Google (2022).
+        content: New Generation of Founders - A Grow with Google PROGRAMME (2022).
         url: "/images/google-csi.jpg"
       - title: Go Programming Language
-        content: "Udemy Learn How to Code: Google's Go Programming Language (2020)"
+        content: "Udemy Certificate of Completion - Learn How to Code (2020)"
         url: "/images/udemy-go.jpg"
       - title: 1st Place in Poster Contest
-        content: 9th International Conference on Nanomaterial - Research & Application (2017).
+        content: NANOCON 9th International Conference on Nanomaterial - Research & Application (2017).
         url: https://www.nanocon.eu/en/
       # - title: Microsoft Imagine Runner
       #   content: We are developed a product which can help others.
