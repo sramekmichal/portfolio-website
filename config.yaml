@@ -222,6 +222,7 @@ params:
           url: "https://www.af.czu.cz/en"
         date: "2023 - present"
         study: "Chemistry"
+        thesis: "Synthesis of selenium and biochar nanoparticles and their benefit to agricultural applications"
         featuredLink:
           enable: false
           name: "Read Online"
