@@ -165,15 +165,15 @@ params:
     title: "Latest Occupation"
     items:
       - job: "Automation Engineer"
-        company: "LMC"
-        companyUrl: "https://www.lmc.eu/en/"
+        company: "Alma Career Czechia"
+        companyUrl: "https://www.almacareer.com/cz/en"
         date: "Sep 2019 - present"
         featuredLink:
           enable: true
           name: "VISIT COMPANY"
-          url: "https://www.lmc.eu/en/"
+          url: "https://www.almacareer.com/cz/en"
         content: |-
-          I am part of Developers Experience department as an Automation Engineer at [LMC .s.ro.](https://www.lmc.eu/en/) in Prague, CZ. I am focusing on CI/CD, Kubernetes, Cybersecurity and Cloud computing in Amazon Web Services.
+          I am part of Developers Experience department as an Automation Engineer at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ. I am focusing on CI/CD, Kubernetes, Cybersecurity and Cloud computing in Amazon Web Services.
           
           -  Research and implementation of novel tools used in Kubernetes deployment
       
