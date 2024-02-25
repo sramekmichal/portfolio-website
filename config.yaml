@@ -117,8 +117,7 @@ params:
     title: "Michal."
     subtitle: "AUTHOR. SCIENTIST. INVENTOR"
     content: |-
-      A science enthusiast, working with innovative information technologies. \
-      Also CEO of a few small businesses.
+      Passionate scientist working with cutting-edge information technologies, while also serving as the founder of several small businesses.
     image: /images/hero.jpg
     socialLinks:
       fontAwesomeIcons:
@@ -143,9 +142,9 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a IT Rookie with a passion in Cloud Development. I have a background in Biochemistry, I am enthusiastic in Sciece and I have a strong interest in the Technology and Art. I am currently working as a Automation Engineer at [LMC s.r.o.](https://www.lmc.eu/en/) in Prague, CZ. 
-
-      I am open minded person adapted to problem solving.
+      I am an experienced IT professional with a background in biochemistry and a passion for cloud development. I maintain a strong enthusiasm for science, technology, and art. Currently, I hold the position of Automation Engineer at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ.
+      
+      I am open minded person adapted to problem solving with attention to details.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -153,8 +152,8 @@ params:
         - "Kubernetes"
         - "Go"
         - "Typescript"
-        - "Spinnaker"
-        - "Linux"
+        - "AWS"
+        - "GitHub"
         - "Python"
         - "SQL"
         - "Helm"
@@ -173,9 +172,9 @@ params:
           name: "VISIT COMPANY"
           url: "https://www.almacareer.com/cz/en"
         content: |-
-          I am part of Developers Experience department as an Automation Engineer at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ. I am focusing on CI/CD, Kubernetes, Cybersecurity and Cloud computing in Amazon Web Services.
+          Department of Developers Experience (previously Architecture) at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ.
           
-          -  Research and implementation of novel tools used in Kubernetes deployment
+          -  Responsible for the Nomad-release, Kubernetes initiator and managing the GitHub Organization for Enterprise needs, including AWS integration with a deeper focus on security.
       
       # - job: "Research Assistant"
       #   company: "Genome Dynamics"
