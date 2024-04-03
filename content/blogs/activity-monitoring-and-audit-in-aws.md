@@ -15,7 +15,7 @@ toc: true
 
 Following text involves AWS native tools for the continuous monitoring of activities within an AWS environment to detect and respond to security threats and breaches. 
 
-*It encompasses the discovery collection of best practices*, how to achieve this goal.</u> Implementing this <u>secure</u> **Activity Monitoring and Audit in AWS**, will enhance security posture, mitigate risks, and better protect all AWS resources and sensitive data from unauthorised access or malicious activities.
+*It encompasses the discovery collection of best practices*, how to achieve this goal. Implementing this <u>secure</u> **Activity Monitoring and Audit in AWS**, will enhance security posture, mitigate risks, and better protect all AWS resources and sensitive data from unauthorised access or malicious activities.
 
 Every decision made in AWS environment should be in accordance with the [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html). This involves understanding the principles outlined in the architecture, conducting a risk assessment to identify potential security risks, and designing AWS architecture to incorporate security controls at every layer. 
 
