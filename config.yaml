@@ -23,7 +23,7 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
+      name: My Blog
       title: Blog posts
       url: /blogs
       weight: 1

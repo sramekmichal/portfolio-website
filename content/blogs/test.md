@@ -1,9 +1,9 @@
 ---
 title: "Render Math With Mathjax"
-# date: 2022-12-09T19:53:33+05:30
 date: 2024-04-03
 draft: false
 author: "Michal Šrámek"
+devto: "https://dev.to/michalsramek/render-math-with-mathjax-4j0m"
 tags:
   - Markdown syntax
   - Mathjax
