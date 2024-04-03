@@ -1,6 +1,6 @@
 ---
 title: "Activity Monitoring and Audit in AWS"
-date: 2024-04-03
+date: 2024-03-16
 draft: true
 author: "Michal Šrámek"
 # devto: "https://dev.to/michalsramek/render-math-with-mathjax-4j0m"
@@ -11,7 +11,6 @@ tags:
 image: /images/blogs/aws-security.jpg
 description: "Activity Monitoring and Audit in AWS"
 toc: true
-mathjax: true
 ---
 
 # Activity Monitoring and Audit in AWS
