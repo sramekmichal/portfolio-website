@@ -3,7 +3,7 @@ title: "Activity Monitoring and Audit in AWS"
 date: 2024-03-16
 draft: false
 author: "Michal Šrámek"
-# devto: "https://dev.to/michalsramek/render-math-with-mathjax-4j0m"
+devto: "https://dev.to/sramek5/activity-monitoring-and-audit-in-aws-1hd3"
 tags:
   - AWS
   - Security
@@ -26,7 +26,6 @@ I personally recommend "internal audit framework" which is in compliance with AW
 1. ***Start to use [AWS Landing Zone](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-aws-environment/understanding-landing-zones.html) with [AWS Control Tower](https://digitalcloud.training/what-is-aws-control-tower/) ([AWS Organizations](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html))***
 
 AWS Landing Zone primarily sets up the initial infrastructure (multi-account AWS environment, core infrastructure components like networking and IAM). AWS Control Tower provides ongoing management and enforcement of security and compliance controls (centralised governance, compliance capabilities and enforcing policies across entire AWS environment). AWS Organizations is the underlying AWS service of AWS Control Tower.
-
 
 2. ***Turn on [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) in each AWS account***
 
