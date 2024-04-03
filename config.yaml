@@ -20,35 +20,23 @@ markup:
     renderer:
       unsafe: true
 
-# Menus:
-#   main:
-#     # - identifier: blog
-#     #   name: Blog
-#     #   title: Blog posts
-#     #   url: /blogs
-#     #   weight: 1
-#     # - identifier: gallery
-#     #   name: Gallery
-#     #   title: Blog posts
-#     #   url: /gallery
-#     #   weight: 2
-#     #Dropdown menu
-#     - identifier: dropdown
-#       title: Main menu
-#       name: Menu
-#       weight: 1
-#     - identifier: dropdown1
-#       title: example dropdown 1
-#       name: example 1
-#       url: /#
-#       parent: dropdown
-#       weight: 1
-#     - identifier: dropdown2
-#       title: example dropdown 2
-#       name: example 2
-#       url: /#
-#       parent: dropdown
-#       weight: 2
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+  # Dropdown menu:
+  #   - identifier: dropdown
+  #     title: Main menu
+  #     name: Menu
+  #     weight: 1
 
 params:
   title: "Michal Šrámek"
@@ -171,44 +159,14 @@ params:
           enable: true
           name: "VISIT COMPANY"
           url: "https://www.almacareer.com/cz/en"
+        info:
+          enable: true
+          content: DeX
         content: |-
           Department of Developers Experience (previously Architecture) at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ.
           
           -  Responsible for the Nomad-release, Kubernetes initiator and managing the GitHub Organization for Enterprise needs, including AWS integration with a deeper focus on security.
-      
-      # - job: "Research Assistant"
-      #   company: "Genome Dynamics"
-      #   companyUrl: "https://www.img.cas.cz/en/"
-      #   date: "Jan 2019 - Aug 2019"
-      #   featuredLink:
-      #     enable: true
-      #     name: "VISIT INSTITUTE"
-      #     url: "https://www.img.cas.cz/en/"
-      #   info:
-      #     enable: true
-      #     content: Laboratory of Genome Dynamics
-      #   content: |-
-      #     I was part of department of Genom Dynamics of Dr. Keith Caldecott from Sussex Unversity at [IMG of the CAS](https://www.img.cas.cz/group/hana-hanzlikova/).
-          
-      #     - Participation in grant projects (identification of novel regulators of PARP1/XRCC1 proteins).
-
-      # - job: "Laboratory Manager"
-      #   company: "Genome Integrity"
-      #   companyUrl: "https://www.img.cas.cz/en/"
-      #   date: "Jan 2012 - Dec 2018"
-      #   featuredLink:
-      #     enable: true
-      #     name: "VISIT INSTITUTE"
-      #     url: "https://www.img.cas.cz/en/"
-      #   info:
-      #     enable: true
-      #     content: Laboratory of Genome Integrity
-      #   content: |-
-      #     I was part of department of Genome Integrity of Dr. Jiří Bártek at [IMG of the CAS](https://www.img.cas.cz/group/zdenek-hodny/).
-          
-      #     - participation in grant projects (theranostic nanomedicine)
-      #     - management of department.
-  
+        
   # Education
   education:
     enable: true
@@ -228,48 +186,6 @@ params:
           url: ""
         content: |-
             - <u>Educational Field:</u> Physical Sciences
-
-      # - title: "Master of Science"
-      #   school:
-      #     name: "Czech University of Life Sciences"
-      #     url: "https://www.af.czu.cz/en"
-      #   date: "2021 - 2023"
-      #   study: "Conservation and Use of Natural Resources"
-      #   thesis: "Analysis of Biofuels from Waste Lignocellulosic Materials by Gas Chromatography"
-      #   featuredLink:
-      #     enable: true
-      #     name: "Read Online"
-      #     url: "https://dx.doi.org/10.13140/RG.2.2.28356.81283"
-      #   content: |-
-      #       - <u>Educational Field:</u> Natural Sciences
-
-      # - title: "Bachelor of Science"
-      #   school:
-      #     name: "University of South Bohemia"
-      #     url: "https://www.zsf.jcu.cz/en/"
-      #   date: "2016 - 2019"
-      #   study: "Medical Laboratory Technican"
-      #   thesis: "Interaction of Gold Cationic Nanoparticles with Blood Cells and Their Distribution in the Model Organism"
-      #   featuredLink:
-      #     enable: true
-      #     name: "Read Online"
-      #     url: "https://doi.org/10.13140/RG.2.2.34534.09288"
-      #   content: |-
-      #       - <u>Educational Field:</u> Healthcare
-
-      # - title: "High School Diploma"
-      #   school:
-      #     name: "Schola Humanitas"
-      #     url: "https://www.humanitas.cz/"
-      #   date: "2008 - 2012"
-      #   study: "Protection and Restoration of the Environment"
-      #   thesis: "Malacocenosis Fossil Research from Cretaceous Period and Geochemistry at the Undescribed Place"
-      #   featuredLink:
-      #     enable: true
-      #     name: "Read Online"
-      #     url: "https://doi.org/10.13140/RG.2.2.26145.48484"
-      #   content: |-
-      #       - <u>Educational Field:</u> Life Sciences
 
   # projects
   projects:
@@ -326,11 +242,6 @@ params:
       - title: 1st Place in Poster Contest
         content: NANOCON 9th International Conference on Nanomaterial - Research & Application (2017).
         url: https://www.nanocon.eu/en/
-      # - title: Microsoft Imagine Runner
-      #   content: We are developed a product which can help others.
-      # - title: Google Summer of Code
-      #   content: Contributed to a open source project.
-      #   url: https://example.com
 
   #Contact
   contact:
