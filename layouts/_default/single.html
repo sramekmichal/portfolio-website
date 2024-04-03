@@ -64,7 +64,7 @@
           </aside>
           {{end}}
           
-          {{ if .Params.devto | default true }}
+          {{ if .Params.devto }}
         <aside class="tags" aria-label="DEV Comunity">
               <h5>{{ .Site.Params.terms.devto | default "DEV Community" }}</h5>
               <ul class="tags-ul list-unstyled list-inline">
