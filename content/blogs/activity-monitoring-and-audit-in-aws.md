@@ -1,7 +1,7 @@
 ---
 title: "Activity Monitoring and Audit in AWS"
 date: 2024-03-16
-draft: true
+draft: false
 author: "Michal Šrámek"
 # devto: "https://dev.to/michalsramek/render-math-with-mathjax-4j0m"
 tags:
