@@ -8,7 +8,7 @@ tags:
   - GitHub
   - Security
   - Audit
-image: 
+image: /images/blogs/github-security.jpg
 description: "GitHub: Personal Access Tokens"
 toc: true
 ---
