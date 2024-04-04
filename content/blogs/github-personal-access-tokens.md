@@ -3,7 +3,7 @@ title: "GitHub: Personal Access Tokens"
 date: 2023-10-19
 draft: false
 author: "Michal Šrámek"
-# devto: "https://dev.to/sramek5/activity-monitoring-and-audit-in-aws-1hd3"
+devto: "https://dev.to/sramek5/github-personal-access-tokens-ol3"
 tags:
   - GitHub
   - Security
