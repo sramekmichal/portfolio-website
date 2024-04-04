@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/blogs/activity-monitoring-and-audit-in-aws/</guid>
       <description>Following text involves AWS native tools for the continuous monitoring of activities within an AWS environment to detect and respond to security threats and breaches.&#xA;It encompasses the discovery collection of best practices, how to achieve this goal. Implementing this secure Activity Monitoring and Audit in AWS, will enhance security posture, mitigate risks, and better protect all AWS resources and sensitive data from unauthorised access or malicious activities.&#xA;Every decision made in AWS environment should be in accordance with the AWS Security Reference Architecture.</description>
     </item>
+    <item>
+      <title>GitHub: Personal Access Tokens</title>
+      <link>http://localhost:1313/blogs/github-personal-access-tokens/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/github-personal-access-tokens/</guid>
+      <description>There are currently 2 types of personal access tokens (PATs) available on GitHub. Fine-grained PATs (beta) and Classic PATs. Both are used for authentication and authorization, but have different properties and uses. There is no Token like Token.&#xA;Fine-grained PATs (beta) Classic PATs Purpose Token for GitHub API for scripting or testing. OAuth personal access tokens OR Instead of a Git password via HTTPS OR For API authentication via Basic Authentication.</description>
+    </item>
   </channel>
 </rss>
