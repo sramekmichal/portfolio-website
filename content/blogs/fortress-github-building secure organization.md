@@ -1,9 +1,9 @@
 ---
 title: "Fortress GitHub: Building a Secure Organization"
 date: 2024-02-14
-draft: true
+draft: false
 author: "Michal Šrámek"
-# devto: "https://dev.to/sramek5/github-personal-access-tokens-ol3"
+devto: "https://dev.to/sramek5/fortress-github-building-a-secure-organization-4ke8"
 tags:
   - GitHub
   - Security
@@ -27,7 +27,7 @@ In an international organizations integrated inside one big GitHub Enteprise, it
 
 - External partners (helping with migrations, quality assesment etc.) should be in the namesake group and their access should be explicit, limited, and valid only for the repository invitation (see below).
 
-![GitHub Root Teams](/images/blogs/external-partners.png)
+![GitHub Externals Partners](/images/blogs/external-partners.png)
 
 ## Disabling Outside Collaborators
 
@@ -57,7 +57,7 @@ Collaborating on GitHub in teams is an organized approach to working on projects
 - Teams are repository owners, not individuals (*common security goal*).
 - Collaboration and approval of PR should be at the team level, not on individual level.
 
-![Untitled](GitHub%20-%20Authentication%20Requirements%20e3456d499aa64331ade82d25b89e1feb/Untitled%204.png)
+![Collaboration](/images/blogs/github-collaboration.png)
 
 - The creation of Ad Hoc Teams should be prohibited at the organization-wide level. Every team that needs to exist in a GitHub organization should be first processed through internal company system (e.g. Active Directory). Such a change should be then reflected in GitHub.
 - Once SAML is enforced, GitHub will automatically synchronize team members with the corresponding group structure according to used IdP.
@@ -92,3 +92,6 @@ Code owners are always a team in the organization (see above), or even a team ot
 - GitHub Actions may create PRs, but they may not automatically approve them.
 - There should be a CODEOWNERS file in each repository.
 - Gradually the protection of the default (release) branch should be enforced by introducing the Organizational **Ruleset** and monitored scraping the **Audit Logs**.
+
+## Conclusion
+The implementation of the SAML protocol on the GitHub platform is a key step in enhancing the security of the organization. However, it is important to ensure that the organization's structure and processes are properly designed and that the necessary security measures are in place. The organization should be structured in such a way that it reflects the business processes and that the team structure is designed to ensure that the organization's resources are properly managed and protected. The implementation of the SAML protocol should be accompanied by the implementation of the necessary security measures, such as the protection of the default branch, the protection of the repository, and the protection of the organization's resources. The implementation of these measures will help to ensure that the organization's resources are properly managed and protected, and that the organization's data is properly secured.
