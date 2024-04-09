@@ -233,15 +233,15 @@ params:
     enable: true
     title: "Latest Achievements"
     items:
+      - title: Cybersecurity Manager Course 24
+        content: Czech National Cyber and Information Security Agency (2024).
+        url: "/images/cybersecurity-manager.png"
       - title: Creative Skills for Innovation
         content: New Generation of Founders - A Grow with Google PROGRAMME (2022).
         url: "/images/google-csi.jpg"
       - title: Go Programming Language
         content: "Udemy Certificate of Completion - Learn How to Code (2020)"
         url: "/images/udemy-go.jpg"
-      - title: 1st Place in Poster Contest
-        content: NANOCON 9th International Conference on Nanomaterial - Research & Application (2017).
-        url: https://www.nanocon.eu/en/
 
   #Contact
   contact:
