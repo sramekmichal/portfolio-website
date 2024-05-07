@@ -130,7 +130,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am an experienced IT professional with a background in biochemistry and a passion for cloud development. I maintain a strong enthusiasm for science, technology, and art. Currently, I hold the position of Automation Engineer at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ.
+      I am an experienced IT professional with a background in biochemistry and a passion for cloud development. I maintain a strong enthusiasm for science, technology, and art. Currently, I hold the position of DevOps Engineer at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
       
       I am open minded person adapted to problem solving with attention to details.
     skills:
@@ -138,34 +138,36 @@ params:
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Kubernetes"
-        - "Go"
-        - "Typescript"
-        - "AWS"
-        - "GitHub"
-        - "Python"
-        - "SQL"
         - "Helm"
+        - "Go"
+        - "AWS"
+        - "Terraform"
+        - "GitHub"
+        - "GitLab"
+        - "Python"
+        - "SonarCloud"
+        - "SQL"
 
   # Experience
   experience:
     enable: true
     title: "Latest Occupation"
     items:
-      - job: "Automation Engineer"
-        company: "Alma Career Czechia"
-        companyUrl: "https://www.almacareer.com/cz/en"
-        date: "Sep 2019 - present"
+      - job: "DevOps Engineer"
+        company: "Trustsoft"
+        companyUrl: "https://www.trustsoft.eu/"
+        date: "May 2024 - present"
         featuredLink:
           enable: true
           name: "VISIT COMPANY"
-          url: "https://www.almacareer.com/cz/en"
+          url: "https://www.trustsoft.eu/"
         info:
           enable: true
-          content: DeX
+          content: Technology
         content: |-
-          Department of Developers Experience (previously Architecture) at [Alma Career Czechia](https://www.almacareer.com/cz/en) in Prague, CZ.
+          Technology Section at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
           
-          -  Responsible for the Nomad-release, Kubernetes initiator and managing the GitHub Organization for Enterprise needs, including AWS integration with a deeper focus on security.
+          -  Providing the link between software development and operations through automation, continuous integration, delivery and optimizing infrastructure.
         
   # Education
   education:
