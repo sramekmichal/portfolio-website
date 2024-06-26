@@ -31,16 +31,16 @@ The application layer serves as the core of the system, processing business logi
 
 Within the application layer, various **ABAP Processes** are essential for efficient system operations:
 
-1. Dialog Process (DIA): Manages the interaction between the user and the system, handling immediate transaction requests.
-2. Background Process (BGD): Executes long-running or scheduled tasks that do not require real-time user interaction.
-3. Spool Process (SPO): Manages print requests and the overall printing process.
-4. Update Process (UDP): Responsible for updating data in the database, ensuring that changes are correctly saved.
-5. Enqueue Process (ENQ): Handles the locking of data to maintain consistency and integrity during concurrent access.
+1. **Dialog Process (DIA)**: Manages the interaction between the user and the system, handling immediate transaction requests.
+2. **Background Process (BGD):** Executes long-running or scheduled tasks that do not require real-time user interaction.
+3. **Spool Process (SPO):** Manages print requests and the overall printing process.
+4. **Update Process (UDP):** Responsible for updating data in the database, ensuring that changes are correctly saved.
+5. **Enqueue Process (ENQ):** Handles the locking of data to maintain consistency and integrity during concurrent access.
 
 Additionally, the application layer includes crucial **ABAP Services**:
 
-1. Message Service: Ensures load balancing across different SAP server instances, routing and delivering messages efficiently.
-2. Enqueue Replication Server (ERS): Maintains a synchronized replica of the lock table on a secondary NetWeaver server, ensuring data consistency and enabling automatic failover in the event of a primary server failure.
+1. **Message Service:** Ensures load balancing across different SAP server instances, routing and delivering messages efficiently.
+2. **Enqueue Replication Server (ERS):** Maintains a synchronized replica of the lock table on a secondary NetWeaver server, ensuring data consistency and enabling automatic failover in the event of a primary server failure.
 
 Together, these components and services ensure that the application layer functions effectively, supporting robust and reliable enterprise resource planning for businesses.
 
@@ -55,9 +55,9 @@ This layer's robustness is critical for the overall performance of the SAP syste
 ## Trivia
 
 The following abbreviations are also associated with SAP:
-- PAS = Primary Application Server.
-- AAS = Additional Application Server.
-- ASCS = ABAP Central Services (core of the SAP application service)
+- **PAS** = Primary Application Server.
+- **AAS** = Additional Application Server.
+- **ASCS** = ABAP Central Services (core of the SAP application service)
 
 The differences between PAS and AAS: 
 - The PAS contains the ASCS, but an AAS does not. 
