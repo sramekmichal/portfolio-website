@@ -5,14 +5,14 @@ theme: hugo-profile
 
 outputs:
   home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
+  - "HTML"
+  - "RSS"
+  - "JSON"
   page:
-    - "HTML"
-    - "RSS"
-    
-Paginate: 3
+  - "HTML"
+  - "RSS"
+
+Paginate: 6
 enableRobotsTXT: true
 
 markup:
@@ -22,11 +22,11 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: My Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+  - identifier: blog
+    name: My Blog
+    title: Blog posts
+    url: /blogs
+    weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -109,20 +109,20 @@ params:
     image: /images/hero.jpg
     socialLinks:
       fontAwesomeIcons:
-        # - icon: fab fa-linkedin
-        #   url: https://example.com
-        # - icon: fab fa-facebook
-        #   url: https://example.com
-        # - icon: fab fa-github
-        #   url: https://github.com/sramekmichal
-        # - icon: fab fa-google
-        #   url: https://scholar.google.com/citations?user=o1_64h8AAAAJ&hl=cs
-        # - icon: fab fa-researchgate
-        #   url: https://example.com
-        
+      # - icon: fab fa-linkedin
+      #   url: https://example.com
+      # - icon: fab fa-facebook
+      #   url: https://example.com
+      # - icon: fab fa-github
+      #   url: https://github.com/sramekmichal
+      # - icon: fab fa-google
+      #   url: https://scholar.google.com/citations?user=o1_64h8AAAAJ&hl=cs
+      # - icon: fab fa-researchgate
+      #   url: https://example.com
+
       customIcons:
-        # - icon: /fav.png
-        #   url: "https://example.com"
+      # - icon: /fav.png
+      #   url: "https://example.com"
 
   # About
   about:
@@ -131,119 +131,119 @@ params:
     image: "/images/me.jpg"
     content: |-
       I am an experienced IT professional with a background in biochemistry and a passion for cloud development. I maintain a strong enthusiasm for science, technology, and art. Currently, I hold the position of DevOps Engineer at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
-      
+
       I am open minded person adapted to problem solving with attention to details.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Kubernetes"
-        - "Helm"
-        - "Go"
-        - "AWS"
-        - "Terraform"
-        - "GitHub"
-        - "GitLab"
-        - "Python"
-        - "SonarCloud"
-        - "SQL"
+      - "Kubernetes"
+      - "Helm"
+      - "Go"
+      - "AWS"
+      - "Terraform"
+      - "GitHub"
+      - "GitLab"
+      - "Python"
+      - "SonarCloud"
+      - "SQL"
 
   # Experience
   experience:
     enable: true
     title: "Latest Occupation"
     items:
-      - job: "DevOps Engineer"
-        company: "Trustsoft"
-        companyUrl: "https://www.trustsoft.eu/"
-        date: "May 2024 - present"
-        featuredLink:
-          enable: true
-          name: "VISIT COMPANY"
-          url: "https://www.trustsoft.eu/"
-        info:
-          enable: true
-          content: Technology
-        content: |-
-          Technology Section at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
-          
-          -  Providing the link between software development and operations through automation, continuous integration, delivery and optimizing infrastructure.
-        
+    - job: "DevOps Engineer"
+      company: "Trustsoft"
+      companyUrl: "https://www.trustsoft.eu/"
+      date: "May 2024 - present"
+      featuredLink:
+        enable: true
+        name: "VISIT COMPANY"
+        url: "https://www.trustsoft.eu/"
+      info:
+        enable: true
+        content: Technology
+      content: |-
+        Technology Section at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
+
+        -  Providing the link between software development and operations through automation, continuous integration, delivery and optimizing infrastructure.
+
   # Education
   education:
     enable: true
     title: "Latest Education"
     index: false
     items:
-      - title: "Doctoral Study"
-        school:
-          name: "Czech University of Life Sciences"
-          url: "https://www.af.czu.cz/en"
-        date: "2023 - present"
-        study: "Chemistry"
-        thesis: "Synthesis of selenium and biochar nanoparticles and their benefit to agricultural applications"
-        featuredLink:
-          enable: false
-          name: "Read Online"
-          url: ""
-        content: |-
-            - <u>Educational Field:</u> Physical Sciences
+    - title: "Doctoral Study"
+      school:
+        name: "Czech University of Life Sciences"
+        url: "https://www.af.czu.cz/en"
+      date: "2023 - present"
+      study: "Chemistry"
+      thesis: "Synthesis of selenium and biochar nanoparticles and their benefit to agricultural applications"
+      featuredLink:
+        enable: false
+        name: "Read Online"
+        url: ""
+      content: |-
+        - <u>Educational Field:</u> Physical Sciences
 
   # projects
   projects:
     enable: true
     title: "My Family"
     items:
-      - title: Aperta Studio
-        content: Business website related to consulting, model designing and custom 3D printing. I work with various FDM printers and one MSLA.
-        image: /images/projects/apertastudio.png
-        featured:
-          name: Ask for Services
-          link: https://www.apertastudio.eu/
-        badges:
-          - "3D"
-          - "Design"
-          - "Crafting"
-        links:
-          - icon: fab fa-linkedin
-            url: https://www.linkedin.com/company/apertastudio
-          - icon: fab fa-facebook
-            url: https://www.facebook.com/apertastudio
-          - icon: fa fa-envelope
-            url: mailto:sramek.consulting@aol.com
+    - title: Aperta Studio
+      content: Business website related to consulting, model designing and custom 3D printing. I work with various FDM printers and one MSLA.
+      image: /images/projects/apertastudio.png
+      featured:
+        name: Ask for Services
+        link: https://www.apertastudio.eu/
+      badges:
+      - "3D"
+      - "Design"
+      - "Crafting"
+      links:
+      - icon: fab fa-linkedin
+        url: https://www.linkedin.com/company/apertastudio
+      - icon: fab fa-facebook
+        url: https://www.facebook.com/apertastudio
+      - icon: fa fa-envelope
+        url: mailto:sramek.consulting@aol.com
 
-      - title: NERDSHARK
-        content: E-shop with mostly my personal fashion and art goods. My goal is to turn the site into something more than an e-shop, but more like a community of artists.
-        image: /images/projects/nerdshark.png
-        featured:
-          name: Visit E-shop
-          link: https://www.nerdshark.eu
-        badges:
-          - "Fashion"
-          - "Art"
-          - "HomeMade"
-        links:
-          - icon: fab fa-linkedin
-            url: https://www.linkedin.com/company/nerdshark
-          - icon: fab fa-facebook
-            url: https://www.facebook.com/nerdsharkshop
-          - icon: fa fa-envelope
-            url: mailto:info@nerdshark.eu
+    - title: NERDSHARK
+      content: E-shop with mostly my personal fashion and art goods. My goal is to turn the site into something more than an e-shop, but more like a community of artists.
+      image: /images/projects/nerdshark.png
+      featured:
+        name: Visit E-shop
+        link: https://www.nerdshark.eu
+      badges:
+      - "Fashion"
+      - "Art"
+      - "HomeMade"
+      links:
+      - icon: fab fa-linkedin
+        url: https://www.linkedin.com/company/nerdshark
+      - icon: fab fa-facebook
+        url: https://www.facebook.com/nerdsharkshop
+      - icon: fa fa-envelope
+        url: mailto:info@nerdshark.eu
 
-# Achievements
+  # Achievements
   achievements:
     enable: true
     title: "Latest Achievements"
     items:
-      - title: Cybersecurity Manager Course 24
-        content: Czech National Cyber and Information Security Agency (2024).
-        url: "/images/cybersecurity-manager.png"
-      - title: Creative Skills for Innovation
-        content: New Generation of Founders - A Grow with Google PROGRAMME (2022).
-        url: "/images/google-csi.jpg"
-      - title: Go Programming Language
-        content: "Udemy Certificate of Completion - Learn How to Code (2020)"
-        url: "/images/udemy-go.jpg"
+    - title: Cybersecurity Manager Course 24
+      content: Czech National Cyber and Information Security Agency (2024).
+      url: "/images/cybersecurity-manager.png"
+    - title: Creative Skills for Innovation
+      content: New Generation of Founders - A Grow with Google PROGRAMME (2022).
+      url: "/images/google-csi.jpg"
+    - title: Go Programming Language
+      content: "Udemy Certificate of Completion - Learn How to Code (2020)"
+      url: "/images/udemy-go.jpg"
 
   #Contact
   contact:
@@ -275,7 +275,7 @@ params:
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
-    
+
   # Single pages like blog and post
   singlePages:
     readTime:
