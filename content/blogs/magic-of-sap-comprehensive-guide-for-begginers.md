@@ -1,6 +1,6 @@
 ---
 title: "The Magic of SAP: A Comprehensive Guide for Begginers"
-date: 
+date: 2024-06-26
 draft: false
 author: "Michal Šrámek"
 devto: "https://dev.to/sramek5/the-magic-of-sap-a-comprehensive-guide-for-begginers-19jc"
