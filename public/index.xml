@@ -6,8 +6,15 @@
     <description>Recent content on Michal Šrámek</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Magic of SAP: A Comprehensive Guide for Begginers</title>
+      <link>http://localhost:1313/blogs/magic-of-sap-comprehensive-guide-for-begginers/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/magic-of-sap-comprehensive-guide-for-begginers/</guid>
+      <description>In the process of our IT life, each of us will surely encounter the word SAP one day. But what is actually SAP and how does it actually work? The official vendor documentation is clear on this and defines SAP as following: SAP is one of the world’s leading producers of software for the management of business processes. That is not entirely clear. Even a literal German translation - Systemanalyse Programmentwicklung - will not help us too much.</description>
+    </item>
     <item>
       <title>Activity Monitoring and Audit in AWS</title>
       <link>http://localhost:1313/blogs/activity-monitoring-and-audit-in-aws/</link>
