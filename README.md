@@ -11,7 +11,7 @@
 
 A high performance and mobile first hugo template for personal portfolio and blog
 
-- Example Site: [hugo-profile.netlify.app](https://hugo-profile.netlify.app)
+- ### Example Site: [https://hugo-profile.netlify.app](https://hugo-profile.netlify.app)
 
 # Features
 - Fully Responsive
@@ -40,7 +40,7 @@ Technology used: Bootstrap, fontawesome
 [For more details](https://github.com/gurusabarish/hugo-profile/wiki)
 ## Hugo theme
 
-- Install Hugo and create a site using `hugo new site my-site -f=yaml`
+- Install Hugo and create a site using `hugo new site my-site --format="yaml"`
 - Clone this repo inside your themes folder
 ```
 cd themes
@@ -61,7 +61,7 @@ For more details: [host on netlify](https://gohugo.io/hosting-and-deployment/hos
 
 # Deployment
 
-Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` commend.
+Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` command.
 
 # Issues
 
@@ -78,7 +78,5 @@ Licensed under [MIT](LICENSE)
 # 🤝 Support
 
 Give a ⭐️ or buy me a ~`coffee`~ tea if you like this project!
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7BFFGU)
 
 <a href="https://www.buymeacoffee.com/gurusabarish" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
