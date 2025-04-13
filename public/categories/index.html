@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,13 +47,11 @@
 
 <link rel="stylesheet" href="/css/theme.css" media="all">
 
-
-
-
 <style>
     :root {
         --text-color: #343a40;
         --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
         --background-color: #eaedf0;
         --secondary-background-color: #64ffda1a;
         --primary-color: #007bff;
@@ -62,6 +60,7 @@
          
         --text-color-dark: #e4e6eb;
         --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
         --background-color-dark: #18191a;
         --secondary-background-color-dark: #212529;
         --primary-color-dark: #ffffff;
@@ -79,19 +78,18 @@
     }
 
     body::-webkit-scrollbar {
-        width: .5em;
-        height: .5em;
+        height: 0px;
+        width: 8px;
         background-color: var(--background-color);
     }
-    
+
     ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px var(--background-color);
         border-radius: 1rem;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         border-radius: 1rem;
-        background-color: var(--secondary-color);
+        background: #b0b0b0;
         outline: 1px solid var(--background-color);
     }
 
@@ -102,8 +100,14 @@
     }
 </style>
 
+
+
 <meta name="description" content="Categories of Michal Šrámek">
 <link rel="stylesheet" href="/css/list.css" media="all">
+
+
+  
+  
 
   <title>
 Categories | Michal Šrámek
@@ -234,9 +238,10 @@ Categories | Michal Šrámek
 </div>
 
   </div><footer>
-    <div class="container py-3" id="recent-posts">
     
-</div><div class="text-center pt-2">
+ 
+
+<div class="text-center pt-2">
     
     <span class="px-1">
         <a href="https://www.linkedin.com/in/michal-sramek" target="_blank" aria-label="linkedin">
@@ -368,6 +373,9 @@ Categories | Michal Šrámek
 
 
 <script src="/js/contact.js"></script>
+
+
+
 
   <section id="search-content" class="py-2">
     <div class="container" id="search-results"></div>
