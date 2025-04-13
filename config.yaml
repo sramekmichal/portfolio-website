@@ -12,7 +12,9 @@ outputs:
   - "HTML"
   - "RSS"
 
-Paginate: 6
+pagination:
+  pagerSize: 6
+
 enableRobotsTXT: true
 
 markup:
@@ -153,7 +155,7 @@ params:
     enable: true
     title: "Latest Occupation"
     items:
-    - job: "DevOps Engineer"
+    - job: "Cloud Architect"
       company: "Trustsoft"
       companyUrl: "https://www.trustsoft.eu/"
       date: "May 2024 - present"
@@ -165,9 +167,9 @@ params:
         enable: true
         content: Technology
       content: |-
-        Technology Section at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
+        Architecture Department at [Trustsoft](https://www.trustsoft.eu/) in Prague, CZ.
 
-        -  Providing the link between software development and operations through automation, continuous integration, delivery and optimizing infrastructure.
+        -  Designing, implementing, and optimising cloud infrastructure. Responsible for selecting appropriate services and collaborating with teams to modernise applications and drive cloud adoption.
 
   # Education
   education:
